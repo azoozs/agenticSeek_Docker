@@ -1,0 +1,3 @@
+docker build -t agentic-seek -f Dockerfile .
+docker run -d --name searxng -p 8080:8080 searxng/searxng
+docker run --rm -it -p 8000:8000 -e SEARXNG_BASE_URL=http://host.docker.internal:8080 --name seek-container agentic-seek
