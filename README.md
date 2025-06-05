@@ -1,3 +1,4 @@
 # agenticSeek_Docker 
 
-This about trying to run Local LLM (Manus AI)
+This is about trying to run Local LLM (Manus AI)
+https://github.com/Fosowl/agenticSeek
